@@ -6,6 +6,8 @@
     <title>SP</title>
 </head>
 <body>
-    
+    <button id="Logo"></button>
+    <button id="Doneren"></button>
+
 </body>
 </html>
