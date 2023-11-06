@@ -1,7 +1,52 @@
+/* Header styles */
 #Logo{
-    size: 100%;
-    border-radius: 50%;
+    height: 23vh;
+    width: 15vw;
+    background-color: red;
 }
+#Doneren{
+    height: 23vh;
+    width: 15vw;
+    border-radius: 100%;
+}
+.btn {
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 25%;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+  }
+  .btn:hover{
+    background: #ff0000;
+    color: #000000;
+    box-shadow: 0 0 5px #f40303,
+                0 0 25px #f40303,
+                0 0 50px rgb(255, 0, 0),
+                0 0 200px #ff0000;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+  
+  .btn:hover {background: #ff0000;}
+  
+  .News {color: rgb(255, 0, 0)}
+  .Leden {color: rgb(255, 0, 0)}
+  .StandPunten {color: rgb(255, 0, 0)}
+  .Contact {color: rgb(255, 0, 0);}
+
+
+
+
+
+
+
+
+  
+  
+
 footer{
     width: 100%;
     background-color: rgb(100, 96, 96);
