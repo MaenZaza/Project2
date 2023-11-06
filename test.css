@@ -1,0 +1,17 @@
+footer{
+    width: 100%;
+    background-color: rgb(100, 96, 96);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: fixed;
+    bottom: 0;
+    color: beige;
+}
+
+.footerText{
+    display: inline-block;
+}
+.date{
+    float: right;
+    margin-right: 50px;
+}
