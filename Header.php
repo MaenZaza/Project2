@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SP</title>
-</head>
-<body>
-    <button id="Logo"></button>
-    <button id="Doneren"></button>
+<header>
 
-</body>
-</html>
+<button id="Logo"></button>
+    <button id="Doneren"></button>
+</header>
