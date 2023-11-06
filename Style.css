@@ -3,19 +3,24 @@
     border-radius: 50%;
 }
 footer{
-    width: 100%;
-    background-color: rgb(100, 96, 96);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    width: 100vw;
+    height: 8vh;
+    background-color: rgb(245, 13, 13);
+    border-radius: 22px;
     position: fixed;
-    bottom: 0;
+    bottom: 5px;
     color: beige;
+    margin: 0px 0px 0px -8px;
+    text-align: center;
 }
 
 .footerText{
     display: inline-block;
+    font-size: 1.5vw;
+   
 }
 .date{
     float: right;
-    margin-right: 50px;
+    margin-right: 5px;
+    font-size: 1.5vw;
 }
