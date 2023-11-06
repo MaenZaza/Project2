@@ -6,11 +6,10 @@
     <button class="btn Leden">Leden</button>
     <button class="btn StandPunten">StandPunten</button>
     <button class="btn Contact">Contact</button>
-    
-
-    <button id="Doneren"></button>
-</header>
-<a href="">
-  <span>HOVER ME</span>
+    <a href="">
+  <span>DONEER NU</span>
   <div class="wave"></div>
 </a>
+
+    
+</header>
