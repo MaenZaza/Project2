@@ -4,7 +4,7 @@
     <a id="Logo" href="index.php"></a>
 
   <div class="Menu">
-    <a href="News.php" class="btn News">News</a>
+    <a href="Nieuws.php" class="btn Nieuws">Nieuws</a>
     <a href="Leden.php" class="btn Leden">Leden</a>
     <a href="StandPunten.php" class="btn StandPunten">StandPunten</a>
     <a href="Contact.php" class="btn Contact">Contact</a>
