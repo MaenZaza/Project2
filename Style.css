@@ -29,6 +29,9 @@ Header{
   background-image: url("Images/SP.png");
   background-size: cover;
 }
+a .Menu{
+  text-decoration: none;
+}
 .Menu{
   display: flex;
   grid-area: Menu;

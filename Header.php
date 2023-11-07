@@ -4,10 +4,10 @@
     <a id="Logo" href="index.php"></a>
 
   <div class="Menu">
-    <button href="News.php" class="btn News">News</button>
-    <button href="Leden.php" class="btn Leden">Leden</button>
-    <button href="StandPunten.php" class="btn StandPunten">StandPunten</button>
-    <button href="Contact.php" class="btn Contact">Contact</button>
+    <a href="News.php" class="btn News">News</a>
+    <a href="Leden.php" class="btn Leden">Leden</a>
+    <a href="StandPunten.php" class="btn StandPunten">StandPunten</a>
+    <a href="Contact.php" class="btn Contact">Contact</a>
   </div>
     
     <a class="Doneer" href="Doneer.php">
