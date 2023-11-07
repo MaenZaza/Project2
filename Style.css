@@ -29,7 +29,7 @@ Header{
   background-image: url("Images/SP.png");
   background-size: cover;
 }
-a .Menu{
+a {
   text-decoration: none;
 }
 .Menu{
@@ -108,6 +108,9 @@ a .Menu{
   color: rgb(0, 0, 0);
   font-size: 23px;
   letter-spacing: 7px;
+  text-transform: uppercase;
+  animation: zoomup 3s linear infinite;
+  
 }
 
 .Doneer .wave {
@@ -154,6 +157,22 @@ a .Menu{
 
   100% {
     transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+@keyframes zoomup {
+  0%,
+  100% {
+    color: #000000;
+    filter: blur(1px);
+    text-shadow: 0 0 10px #d70000, 0 0 20px #d70000, 0 0 30px #d70000,
+      0 0 40px #d70000, 0 0 60px #d70000, 0 0 80px #d70000, 0 0 100px #d70000,
+      0 0 120px #d70000;
+  }
+  5%,
+  95% {
+    filter: blur(0);
+    color: #000000;
+    text-shadow: none;
   }
 }
 
