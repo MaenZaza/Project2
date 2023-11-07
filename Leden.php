@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="test.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SP</title>
+    <title>Leden - SP</title>
+    <link rel="website icon" type="png"
+    href="Images/tomaat-logo.png">
 </head>
 
 <body>
