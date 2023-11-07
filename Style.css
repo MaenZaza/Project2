@@ -50,10 +50,7 @@ Header{
 .btn:hover {
   background: #ff0000;
   color: #000000;
-  box-shadow: 0 0 5px #f40303,
-    0 0 25px #f40303,
-    0 0 50px rgb(255, 0, 0),
-    0 0 200px #ff0000;
+  box-shadow: inset 0px 0px 20px 5px #f40303, 0 0 25px #f40303, 0 0 50px rgb(255, 0, 0), 0 0 200px #ff0000;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
