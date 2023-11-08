@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <h1>Home Pagina</h1>
 <?php
 include "Header.php"
 ?>

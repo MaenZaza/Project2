@@ -11,6 +11,7 @@
 </head>
 
 <body>
+<h1>Nieuws</h1>
 <?php
 include "Header.php"
 ?>
