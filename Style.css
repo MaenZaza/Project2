@@ -13,8 +13,7 @@ body {
   'Onderwerp'
   'Footer'
   ;
-  animation: span1 2s linear infinite;
-  animation-delay: 1s;
+
   /* grid-template-columns: 1fr 4fr 1fr;
   grid-template-rows: 2fr 5fr 1fr; */
 }
@@ -186,14 +185,7 @@ a {
     text-shadow: none;
   }
 }
-@keyframes span1{
-  0%{
-      left:-200px
-  }
-  100%{
-      left:200px;
-  }
-}
+
 
 .Onderwerp{
   grid-area: Onderwerp;
