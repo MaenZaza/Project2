@@ -16,7 +16,15 @@
 <?php
 include "Header.php"
 ?>
-<div class="Onderwerp">
+<div id="NieuwsPage" class="Onderwerp">
+    <div class="nieuwsp np1">1</div>
+    <div class="nieuwsp np2">2</div>
+    <div class="nieuwsp np3">3</div>
+    <div class="nieuwsp np4">4</div>
+    <div class="nieuwsp np5">5</div>
+    <div class="nieuwsp np6">6</div>
+    <div class="nieuwsp np7">7</div>
+    <div class="nieuwsp np8">8</div>
 
 </div>
 

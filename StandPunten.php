@@ -16,7 +16,15 @@
 <?php
 include "Header.php"
 ?>
-<div class="Onderwerp">
+<div id="StandPuntenPage" class="Onderwerp">
+    <div class="Punten p1">1</div>
+    <div class="Punten p2">2</div>
+    <div class="Punten p3">3</div>
+    <div class="Punten p4">4</div>
+    <div class="Punten p5">5</div>
+    <div class="Punten p6">6</div>
+    <div class="Punten p7">7</div>
+    <div class="Punten p8">8</div>
 
 </div>
 

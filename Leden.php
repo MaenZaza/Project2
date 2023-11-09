@@ -16,7 +16,17 @@
 <?php
 include "Header.php"
 ?>
-<div class="Onderwerp">
+<div id="LedenPage" class="Onderwerp">
+    <div class="Ledenp L1">1</div>
+    <div class="Ledenp L2">2</div>
+    <div class="Ledenp L3">3</div>
+    <div class="Ledenp L4">4</div>
+    <div class="Ledenp L5">5</div>
+    <div class="Ledenp L6">6</div>
+    <div class="Ledenp L7">7</div>
+    <div class="Ledenp L8">8</div>
+    <div class="Ledenp L9">9</div>
+    <div class="Ledenp L10">10</div>
 
 </div>
 
