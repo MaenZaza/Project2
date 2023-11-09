@@ -18,10 +18,10 @@
 include "Header.php"
 ?>
 <div id="indexPage" class="Onderwerp">
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div class="Nieuws N1"></div>
+    <div class="Nieuws N2"></div>
+    <div class="Nieuws N3"></div>
+    <div class="Nieuws N4"></div>
 
 </div>
 

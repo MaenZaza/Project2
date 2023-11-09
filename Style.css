@@ -189,7 +189,7 @@ a {
 
 .Onderwerp{
   grid-area: Onderwerp;
-  
+  height: 40vh;
 }
 
 
