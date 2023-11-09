@@ -72,7 +72,7 @@ a {
   background: #ff0000;
 }
 
-.Nieuws {
+.NieuwsM {
   color: rgb(255, 0, 0)
 }
 
@@ -189,7 +189,6 @@ a {
 
 .Onderwerp{
   grid-area: Onderwerp;
-  height: 40vh;
 }
 
 
