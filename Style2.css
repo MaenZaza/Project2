@@ -1,65 +1,211 @@
 /* index */
-#indexPage{
-    display: grid;
-    grid-template-areas: 'Nieuws1 Nieuws2 Nieuws3 Nieuws4';
-    grid-column-gap: 35px;
-    margin: 15px 100px;
+#indexPage {
+  display: grid;
+  grid-template-areas: 'Nieuws1 Nieuws2 Nieuws3 Nieuws4';
+  grid-column-gap: 35px;
+  margin: 15px 100px;
 }
+
 .Nieuws {
-    --border-width: 3px;
-    height: 65vh;
-    border: 5px solid #000000;
-   
-    border-radius: var(--border-width);
+  --border-width: 4px;
+  height: 65vh;
+  border-radius: var(--border-width);
+  position: relative;
+  -webkit-box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
 
 }
+
 .N1 {
-    grid-area: Nieuws1;
-    background-color: aqua;
-    
+  grid-area: Nieuws1;
+  background-color: aqua;
+
 }
+
 .N2 {
-    grid-area: Nieuws2;
-    background-color: rgb(255, 234, 0);
+  grid-area: Nieuws2;
+  background-color: rgb(255, 234, 0);
 }
+
 .N3 {
-    grid-area: Nieuws3;
-    background-color: rgb(0, 232, 0);
+  grid-area: Nieuws3;
+  background-color: rgb(0, 232, 0);
 }
+
 .N4 {
-    grid-area: Nieuws4;
-    background-color: rgb(127, 127, 127);
+  grid-area: Nieuws4;
+  background-color: rgb(127, 127, 127);
 }
 
 .Nieuws::after {
-      position: absolute;
-      content: "";
-      top: calc(-1 * var(--border-width));
-      left: calc(-1 * var(--border-width));
-      z-index: -1;
-      width: calc(100% + var(--border-width) * 2);
-      height: calc(100% + var(--border-width) * 2);
-      background: linear-gradient(
-        60deg,
-        hsl(224, 85%, 66%),
-        hsl(269, 85%, 66%),
-        hsl(314, 85%, 66%),
-        hsl(359, 85%, 66%),
-        hsl(44, 85%, 66%),
-        hsl(89, 85%, 66%),
-        hsl(134, 85%, 66%),
-        hsl(179, 85%, 66%)
-      );
-      background-size: 300% 300%;
-      background-position: 0 50%;
-      border-radius: calc(2 * var(--border-width));
-      animation: moveGradient 4s alternate infinite;
-    }
-  
-  
-  @keyframes moveGradient {
-    50% {
-      background-position: 100% 50%;
-    }
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: -1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(60deg,
+      hsl(0, 100%, 50%),
+      hsl(0, 0%, 100%),
+      hsl(0, 100%, 49%),
+      hsl(0, 0%, 100%),
+      hsl(0, 100%, 49%),
+      hsl(0, 0%, 100%),
+      hsl(0, 100%, 49%),
+      hsl(0, 0%, 100%));
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+}
+
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 0%;
   }
-  /* The last thing is to fix the border of the Nieuws.
+}
+
+/* Nieuws */
+#NieuwsPage{
+  display: grid;
+  grid-template-areas: 
+  'nieuwsp1'
+  'nieuwsp2'
+  'nieuwsp3'
+  'nieuwsp4'
+  'nieuwsp5'
+  'nieuwsp6'
+  'nieuwsp7'
+  'nieuwsp8';
+  margin: 0px 15vw;
+  
+}
+.nieuwsp {
+  margin: 1vh 0px;
+  background-color: aquamarine;
+  height: 20vh;
+}
+.np1 {
+  grid-area: nieuwsp1;
+}
+.np2 {
+  grid-area: nieuwsp2;
+}
+.np3 {
+  grid-area: nieuwsp3;
+}
+.np4 {
+  grid-area: nieuwsp4;
+}
+.np5 {
+  grid-area: nieuwsp5;
+}
+.np6 {
+  grid-area: nieuwsp6;
+}
+.np7 {
+  grid-area: nieuwsp7;
+}
+.np8 {
+  grid-area: nieuwsp8;
+}
+
+/* Leden */
+
+#LedenPage{
+  display: grid;
+  grid-template-areas: 
+  'Ledenp1 Ledenp2 Ledenp3'
+  'Ledenp4 Ledenp5 Ledenp6'
+  'Ledenp7 Ledenp8 Ledenp9'
+  'Ledenp0 Ledenp10 Ledenp10';
+  margin: 0px 15vw;
+}
+
+.Ledenp {
+  display: flexbox;
+  background-color: chartreuse;
+  width: 20vw;
+  height: 30vh;
+  margin: 15px 0px;
+  text-align: center;
+}
+.L1 {
+  grid-area: Ledenp1;
+}
+.L2 {
+  grid-area: Ledenp2;
+}
+.L3 {
+  grid-area: Ledenp3;
+}
+.L4 {
+  grid-area: Ledenp4;
+}
+.L5 {
+  grid-area: Ledenp5;
+}
+.L6 {
+  grid-area: Ledenp6;
+}
+.L7 {
+  grid-area: Ledenp7;
+}
+.L8 {
+  grid-area: Ledenp8;
+}
+.L9 {
+  grid-area: Ledenp9;
+}
+.L10 {
+  grid-area: Ledenp10;
+  ;
+}
+
+/* StandPunten */
+#StandPuntenPage{
+  display: grid;
+  grid-template-areas: 
+  'Leed1 Leed2'
+  'Leed3 Leed4'
+  'Leed5 Leed6'
+  'Leed7 Leed8';
+}
+.Punten {
+  display: flex;
+  
+  justify-self: center;
+  background-color:darkcyan;
+  width: 15vw;
+  height: 15vh;
+  margin: 15px 0px;
+  
+ 
+}
+.p1 {
+  grid-area: Leed1;
+}
+.p2 {
+  grid-area: Leed2;
+}
+.p3 {
+  grid-area: Leed3;
+}
+.p4 {
+  grid-area: Leed4;
+}
+.p5 {
+  grid-area: Leed5;
+}
+.p6 {
+  grid-area: Leed6;
+}
+.p7 {
+  grid-area: Leed7;
+}
+.p8 {
+  grid-area: Leed8;
+}
