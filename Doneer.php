@@ -17,13 +17,28 @@
 include "Header.php"
 ?>
 <div class="Onderwerp">
-
+    <form action=""></form>
+    <div>
+        <label class="Labels L1" for="Naam" placeholder="Message"></label>
+    <input class="Input In1" type="text">
 </div>
+    <div>
+        <label class="Labels L2" for="Email"></label>
+    <input class="Input In2" type="text">
+</div>
+    <div>
+        <label class="Labels L3" for=""></label>
+    <input class="Input In3" type="text">
+</div>
+    
+    
+    
 
 
+    
+    
 
-
-
+</div>  
 <?php
 include "Footer.php"
 ?>
