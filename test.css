@@ -1,0 +1,24 @@
+/* Contact */
+#ContactPage{
+    display: grid;
+    grid-template-areas: 
+    'FormL FormR';
+}
+.Form {
+    display: flex;
+  
+  justify-self: center;
+  background-color: gold;
+  width: 30vw;
+  height: 68vh;
+  margin: 10px 0px;
+  
+}
+.FR {
+    grid-area: FormR;
+    margin-right: 250px;
+}
+.FL {
+    grid-area: FormL;
+    margin-left: 250px;
+}

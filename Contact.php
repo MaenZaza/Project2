@@ -16,7 +16,10 @@
 <?php
 include "Header.php"
 ?>
-<div class="Onderwerp">
+<div id="ContactPage" class="Onderwerp">
+    <div class="Form FR"></div>
+    <div class="Form FL"></div>
+    
 
 </div>
 
