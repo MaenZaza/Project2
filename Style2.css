@@ -211,3 +211,22 @@
 .p8 {
   grid-area: Leed8;
 }
+
+
+/* Form */
+form {
+ background-color: #000;
+  margin: 0 auto;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}

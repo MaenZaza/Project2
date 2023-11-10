@@ -16,21 +16,32 @@
 <?php
 include "Header.php"
 ?>
-<div class="Onderwerp">
-    <form action=""></form>
+<form action="doneer.php" method="post">
     <div>
-        <label class="Labels L1" for="Naam" placeholder="Message"></label>
-    <input class="Input In1" type="text">
-</div>
+      <label for="naam">Naam:</label>
+      <input type="text" name="naam" id="naam">
+    </div>
     <div>
-        <label class="Labels L2" for="Email"></label>
-    <input class="Input In2" type="text">
-</div>
+      <label for="email">E-mailadres:</label>
+      <input type="email" name="email" id="email">
+    </div>
     <div>
-        <label class="Labels L3" for=""></label>
-    <input class="Input In3" type="text">
-</div>
-    
+      <label for="prijs">Prijs:</label>
+    <div>
+        <label for="vrijwillig">Vrijwillige donatie:</label>
+        <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
+    </div>
+      <select name="prijs" id="prijs">
+        <option value="10">€10</option>
+        <option value="25">€25</option>
+        <option value="50">€50</option>
+      </select>
+      
+    </div>
+    <div>
+      <input type="submit" value="Doneer">
+    </div>
+  </form>
     
     
 
