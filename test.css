@@ -22,3 +22,30 @@
     grid-area: FormL;
     margin-left: 250px;
 }
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+     
+    color: #fff;
+    cursor: pointer;
+  }
+  
