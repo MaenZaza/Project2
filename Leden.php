@@ -17,7 +17,7 @@
 include "Header.php"
 ?>
 <div id="LedenPage" class="Onderwerp">
-    <div class="Ledenp L1">1</div>
+    <div class="Ledenp L1">1. LILIAN MARIJNISSEN <br>Oss, 1985 - Lijsttrekker en huidig fractievoorzitter SP Tweede Kamerfractie</div>
     <div class="Ledenp L2">2</div>
     <div class="Ledenp L3">3</div>
     <div class="Ledenp L4">4</div>
