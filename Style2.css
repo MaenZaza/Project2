@@ -136,16 +136,17 @@
 }
 
 .Ledenp {
-  display: flexbox;
-  background-color: chartreuse;
-  width: 20vw;
-  height: 30vh;
+  display: flex;
+
   margin: 15px 0px;
   text-align: center;
+  background-size: cover;
+  border-radius: 30px;
 }
 
 .L1 {
   grid-area: Ledenp1;
+
 }
 
 .L2 {
@@ -182,7 +183,22 @@
 
 .L10 {
   grid-area: Ledenp10;
-  ;
+}
+
+#LedenPage img {
+  width: 20vw;
+  height: 30vh;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+#LedenPage img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
 }
 
 /* StandPunten */
@@ -198,7 +214,6 @@
 
 .Punten {
   display: flex;
-
   justify-self: center;
   background-color: darkcyan;
   width: 15vw;
@@ -261,7 +276,7 @@
   background: linear-gradient(to top,
       #ffffff,
       #cf0000);
-  border-radius: 50% 50% 50% 50% / 25% 25% 75% 75% ;
+  border-radius: 50% 50% 50% 50% / 25% 25% 75% 75%;
   box-shadow: -10px 0px 13px -7px #ff0000, 10px 0px 13px -7px #ff0000, -4px 3px 7px 4px rgba(0, 0, 0, 0.44);
 
 }
