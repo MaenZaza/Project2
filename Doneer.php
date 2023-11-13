@@ -16,40 +16,38 @@
 <?php
 include "Header.php"
 ?>
-<form action="doneer.php" method="post">
-    <div>
-      <label for="naam">Naam:</label>
-      <input type="text" name="naam" id="naam">
+<div id="DoneerPage" class="Onderwerp">
+    <div class="doneerF L">
+        <form action="doneer.php" method="post">
+            <div>
+                <label for="naam">Naam:</label>
+                <input type="text" name="naam" id="naam">
+            </div>
+            <div>
+            <label for="email">E-mailadres:</label>
+            <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="prijs">Prijs:</label>
+                <select name="prijs" id="prijs">
+                    <option value="10">€10</option>
+                    <option value="25">€25</option>
+                    <option value="50">€50</option>
+                </select>
+                <div>
+                    <label for="vrijwillig">Vrijwillige donatie:</label>
+                    <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
+                </div>
+            </div>
+            <input type="submit" value="Doneer">
+        </form>
     </div>
-    <div>
-      <label for="email">E-mailadres:</label>
-      <input type="email" name="email" id="email">
-    </div>
-    <div>
-      <label for="prijs">Prijs:</label>
-    <div>
-        <label for="vrijwillig">Vrijwillige donatie:</label>
-        <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
-    </div>
-      <select name="prijs" id="prijs">
-        <option value="10">€10</option>
-        <option value="25">€25</option>
-        <option value="50">€50</option>
-      </select>
-      
-    </div>
-    <div>
-      <input type="submit" value="Doneer">
-    </div>
-  </form>
+    <div class="doneerF R">
     
-    
-
-
-    
-    
+    </div>
 
 </div>  
+
 <?php
 include "Footer.php"
 ?>

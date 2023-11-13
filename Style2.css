@@ -213,12 +213,22 @@
 }
 
 
-/* Form */
-form {
- background-color: #000;
-  margin: 0 auto;
+/* Doneer */
+#DoneerPage{
+  display: grid;
+  grid-template-areas: 
+  'DL DR';
 }
-
+.L{
+  grid-area: DL;
+}
+.R{
+  grid-area: DR;
+}
+.doneerF{
+  margin: 0px 50px;
+  width: 40vw;
+}
 input, select {
   width: 100%;
   padding: 10px;
