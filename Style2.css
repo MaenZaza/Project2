@@ -10,7 +10,7 @@
   --border-width: 4px;
   height: 65vh;
   border-radius: var(--border-width);
-  
+
   position: relative;
   -webkit-box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
@@ -20,23 +20,23 @@
 
 .N1 {
   grid-area: Nieuws1;
-  
+
 
 }
 
 .N2 {
   grid-area: Nieuws2;
-  
+
 }
 
 .N3 {
   grid-area: Nieuws3;
-  
+
 }
 
 .N4 {
   grid-area: Nieuws4;
-  
+
 }
 
 .Nieuws::after {
@@ -70,59 +70,68 @@
 }
 
 /* Nieuws */
-#NieuwsPage{
+#NieuwsPage {
   display: grid;
-  grid-template-areas: 
-  'nieuwsp1'
-  'nieuwsp2'
-  'nieuwsp3'
-  'nieuwsp4'
-  'nieuwsp5'
-  'nieuwsp6'
-  'nieuwsp7'
-  'nieuwsp8';
+  grid-template-areas:
+    'nieuwsp1'
+    'nieuwsp2'
+    'nieuwsp3'
+    'nieuwsp4'
+    'nieuwsp5'
+    'nieuwsp6'
+    'nieuwsp7'
+    'nieuwsp8';
   margin: 0px 15vw;
-  
+
 }
+
 .nieuwsp {
   margin: 1vh 0px;
   background-color: aquamarine;
   height: 20vh;
 }
+
 .np1 {
   grid-area: nieuwsp1;
 }
+
 .np2 {
   grid-area: nieuwsp2;
 }
+
 .np3 {
   grid-area: nieuwsp3;
 }
+
 .np4 {
   grid-area: nieuwsp4;
 }
+
 .np5 {
   grid-area: nieuwsp5;
 }
+
 .np6 {
   grid-area: nieuwsp6;
 }
+
 .np7 {
   grid-area: nieuwsp7;
 }
+
 .np8 {
   grid-area: nieuwsp8;
 }
 
 /* Leden */
 
-#LedenPage{
+#LedenPage {
   display: grid;
-  grid-template-areas: 
-  'Ledenp1 Ledenp2 Ledenp3'
-  'Ledenp4 Ledenp5 Ledenp6'
-  'Ledenp7 Ledenp8 Ledenp9'
-  'Ledenp0 Ledenp10 Ledenp10';
+  grid-template-areas:
+    'Ledenp1 Ledenp2 Ledenp3'
+    'Ledenp4 Ledenp5 Ledenp6'
+    'Ledenp7 Ledenp8 Ledenp9'
+    'Ledenp0 Ledenp10 Ledenp10';
   margin: 0px 15vw;
 }
 
@@ -134,109 +143,156 @@
   margin: 15px 0px;
   text-align: center;
 }
+
 .L1 {
   grid-area: Ledenp1;
 }
+
 .L2 {
   grid-area: Ledenp2;
 }
+
 .L3 {
   grid-area: Ledenp3;
 }
+
 .L4 {
   grid-area: Ledenp4;
 }
+
 .L5 {
   grid-area: Ledenp5;
 }
+
 .L6 {
   grid-area: Ledenp6;
 }
+
 .L7 {
   grid-area: Ledenp7;
 }
+
 .L8 {
   grid-area: Ledenp8;
 }
+
 .L9 {
   grid-area: Ledenp9;
 }
+
 .L10 {
   grid-area: Ledenp10;
   ;
 }
 
 /* StandPunten */
-#StandPuntenPage{
+#StandPuntenPage {
   grid-area: Onderwerp;
   display: grid;
-  grid-template-areas: 
-  'Leed1 Leed2'
-  'Leed3 Leed4'
-  'Leed5 Leed6'
-  'Leed7 Leed8';
+  grid-template-areas:
+    'Leed1 Leed2'
+    'Leed3 Leed4'
+    'Leed5 Leed6'
+    'Leed7 Leed8';
 }
+
 .Punten {
   display: flex;
-  
+
   justify-self: center;
-  background-color:darkcyan;
+  background-color: darkcyan;
   width: 15vw;
   height: 15vh;
   margin: 15px 0px;
-  
- 
+
+
 }
+
 .p1 {
   grid-area: Leed1;
 }
+
 .p2 {
   grid-area: Leed2;
 }
+
 .p3 {
   grid-area: Leed3;
 }
+
 .p4 {
   grid-area: Leed4;
 }
+
 .p5 {
   grid-area: Leed5;
 }
+
 .p6 {
   grid-area: Leed6;
 }
+
 .p7 {
   grid-area: Leed7;
 }
+
 .p8 {
   grid-area: Leed8;
 }
 
 
 /* Doneer */
-#DoneerPage{
+#DoneerPage {
   display: grid;
-  grid-template-areas: 
-  'DL DR';
+  grid-template-areas:
+    'DL DR';
+  margin: 0px 42px;
 }
-.L{
+
+.L {
   grid-area: DL;
+
 }
-.R{
+
+.R {
   grid-area: DR;
+
+
 }
-.doneerF{
+
+.doneerF {
+  display: flex;
   margin: 0px 50px;
   width: 40vw;
+  height: 72vh;
+  box-shadow: -10px 0px 13px -7px #ff0000, 10px 0px 13px -7px #ff0000, -4px 3px 7px 4px rgba(0, 0, 0, 0.44);
+  border-radius: 51% 49% 49% 51% / 64% 62% 38% 36%;
+  align-items: center;
+  background: linear-gradient(to right,
+      #f27c7c,
+      #b31c1c);
 }
-input, select {
-  width: 100%;
+
+
+input,
+select {
+  box-shadow: 0px 1px 4px -7px #ffffff, 10px 0px 13px -7px #ffffff, -4px 3px 7px 4px rgb(255 179 179 / 44%);
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  width: 25vw;
   padding: 10px;
   border: 1px solid #ccc;
+  margin: 0px 0px 20px 50px;
 }
 
 input[type="submit"] {
   background-color: #000;
   color: #fff;
   cursor: pointer;
+}
+.L label{
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
 }

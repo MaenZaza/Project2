@@ -24,8 +24,8 @@ include "Header.php"
                 <input type="text" name="naam" id="naam">
             </div>
             <div>
-            <label for="email">E-mailadres:</label>
-            <input type="email" name="email" id="email">
+                <label for="email">E-mailadres:</label>
+                <input type="email" name="email" id="email" >
             </div>
             <div>
                 <label for="prijs">Prijs:</label>
@@ -34,10 +34,10 @@ include "Header.php"
                     <option value="25">€25</option>
                     <option value="50">€50</option>
                 </select>
-                <div>
-                    <label for="vrijwillig">Vrijwillige donatie:</label>
-                    <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
-                </div>
+            </div>
+            <div>
+                <label for="vrijwillig">Vrijwillige donatie:</label>
+                <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
             </div>
             <input type="submit" value="Doneer">
         </form>
