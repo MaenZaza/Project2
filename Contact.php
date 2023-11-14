@@ -18,10 +18,10 @@ include "Header.php"
 ?>
 <div id="ContactPage" class="Onderwerp">
     <div class="Form FR">
-    <div class="form-group">
-    <label for="vraag">Vraag</label>
-    <textarea name="vraag" id="vraag" required></textarea>
-  </div>
+      <div class="form-group">
+        <label for="vraag">Vraag</label>
+          <input name="vraag" id="vraag" required></input>
+      </div>
     </div>
     
     <div class="Form FL">
