@@ -1,4 +1,10 @@
+<?php
+    include "dbHandler.php";
+    $db = new DbHandler();
 
+    $nieuws = $db->get4nieuws();
+    // var_dump($nieuws);
+?>
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -18,10 +24,13 @@
 include "Header.php"
 ?>
 <div id="indexPage" class="Onderwerp">
-    <div class="Nieuws N1"></div>
-    <div class="Nieuws N2"></div>
-    <div class="Nieuws N3"></div>
-    <div class="Nieuws N4"></div>
+    <?php
+        foreach($nieuws as $cnt => $nieuwsbericht){
+            $title = $nieuwsbericht['titel'];
+            $foto = $nieuwsbericht['foto'];
+            echo '<div class="Nieuws N'.$cnt.'"><img src=Images/'.$foto.'><a href="Nieuws.php">'.$title.'</a></div>';
+        }
+    ?>
 
 </div>
 
