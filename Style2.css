@@ -409,3 +409,31 @@ input[type="submit"] {
   height: 55vh;
   width: 28vw;
 }
+
+/* Nieuw pagina (Npagina) */
+#Npagina {
+  display: grid;
+  grid-template-areas: 
+  'Title Title'
+  'NieuwsT Foto';
+  margin: 0px 135px;
+  
+}
+.title {
+  grid-area: Title;
+  background-color: rgb(237, 218, 5);
+  height: 10vh;
+  width: 80vw;
+}
+.foto {
+  grid-area: Foto;
+  background-color: #cf0000;
+  height: 60vh;
+  width: 30vw;
+}
+.tekst {
+  grid-area: NieuwsT;
+  background-color: aqua;
+  height: 60vh;
+  width: 50vw;
+}

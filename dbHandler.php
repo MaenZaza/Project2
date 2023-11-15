@@ -22,4 +22,8 @@ class DbHandler
         return $statement->fetchAll(PDO::FETCH_ASSOC); 
     }
 
+    public function getNewsItem($id){
+        
+    }
+
 }

@@ -28,7 +28,8 @@ include "Header.php"
         foreach($nieuws as $cnt => $nieuwsbericht){
             $title = $nieuwsbericht['titel'];
             $foto = $nieuwsbericht['foto'];
-            echo '<div class="Nieuws N'.$cnt.'"><img src=Images/'.$foto.'><a href="Nieuws.php">'.$title.'</a></div>';
+            $id = $nieuwsbericht['Id'];
+            echo '<div class="Nieuws N'.$cnt.'"><img src=Images/'.$foto.'><a href="Npagina.php?id='.$id.'">'.$title.'</a></div>';
         }
     ?>
 
