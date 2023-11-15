@@ -1,6 +1,14 @@
 <?php
-    // $id = $_GET['id'];
+    include "dbHandler.php";
+    $db = new DbHandler();
+    $id = $_GET['id'];
+    $nieuws = $db->getNewsItem($id);
+
     // echo $id;
+    // var_dump($nieuws);
+    if (isset($_POST[""])) {
+        $db->getNewsItem($_POST["titel"], $_POST["nieuws"], $_POST["foto"]);
+    }
 ?>
 <!DOCTYPE html>
 <html lang="nl">
@@ -20,10 +28,21 @@
 <?php
 include "Header.php"
 ?>
+
     <div id="Npagina" class="Onderwerp">
-        <div class="title"></div>
+    <?php
+        // foreach($nieuws as $nieuwsbericht){
+            $title = $nieuws['titel'];
+            $foto = $nieuws['foto'];
+            $tekst = $nieuws['tekst'];
+            echo '<div class="title">'.$title.'</div>';
+            echo '<div class="tekst">'.$tekst.'</div>';
+            echo '<div class="foto"><img src=Images/'.$foto.'></div>';
+        // }
+    ?>
+        <!-- <div class="title"></div>
         <div class="foto"></div>
-        <div class="tekst"></div>
+        <div class="tekst"></div> -->
 
     </div>  
 

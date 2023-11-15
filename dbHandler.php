@@ -9,21 +9,23 @@ class DbHandler
 
     public function get4nieuws(){
         $pdo = new PDO($this->dataSource, $this->userName, $this->password);
-
         $statement = $pdo->prepare("SELECT * FROM nieuws LIMIT 4");
         $statement->execute();
         return $statement->fetchAll(PDO::FETCH_ASSOC); 
     }
     public function get8nieuws(){
         $pdo = new PDO($this->dataSource, $this->userName, $this->password);
-
         $statement = $pdo->prepare("SELECT * FROM nieuws");
         $statement->execute();
         return $statement->fetchAll(PDO::FETCH_ASSOC); 
     }
 
     public function getNewsItem($id){
-        
+        $pdo = new PDO($this->dataSource, $this->userName, $this->password);
+        $statement = $pdo->prepare("SELECT titel, tekst, foto FROM nieuws WHERE Id = :id;");
+        $statement->bindParam("id", $id, PDO::PARAM_INT);
+        $statement->execute();
+        return $statement->fetch(PDO::FETCH_ASSOC);
     }
 
 }

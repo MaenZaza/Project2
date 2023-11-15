@@ -29,7 +29,7 @@ include "Header.php"
             $title = $nieuwsbericht['titel'];
             $foto = $nieuwsbericht['foto'];
             $id = $nieuwsbericht['Id'];
-            echo '<div class="Nieuws N'.$cnt.'"><img src=Images/'.$foto.'><a href="Npagina.php?id='.$id.'">'.$title.'</a></div>';
+            echo '<a href="Npagina.php?id='.$id.'"><div class="Nieuws N'.$cnt.'"><img src=Images/'.$foto.'>'.$title.'</div></a>';
         }
     ?>
 

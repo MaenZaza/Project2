@@ -5,8 +5,6 @@
     $nieuws = $db->get8nieuws();
     // var_dump($nieuws);
 ?>
-
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -30,9 +28,11 @@ include "Header.php"
         foreach($nieuws as $cnt => $nieuwsbericht){
             $title = $nieuwsbericht['titel'];
             $foto = $nieuwsbericht['foto'];
-            echo '<div class="nieuwsp np'.$cnt.'"><img src=Images/'.$foto.'><a href="Npagina.php">'.$title.'</a></div>';
+            $id = $nieuwsbericht['Id'];
+            echo '<a href="Npagina.php?id='.$id.'"><div class="nieuwsp np'.$cnt.'"><img src=Images/'.$foto.'>'.$title.'</div></a>';
         }
     ?>
+
 </div>
 
 

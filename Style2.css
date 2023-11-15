@@ -416,24 +416,34 @@ input[type="submit"] {
   grid-template-areas: 
   'Title Title'
   'NieuwsT Foto';
-  margin: 0px 135px;
-  
+  margin: 20px 130px;
+  border: solid 1px red;
+  box-shadow: -7px -1px 20px 4px black;
+  background-color: #e9dbdb;
 }
 .title {
   grid-area: Title;
-  background-color: rgb(237, 218, 5);
-  height: 10vh;
+  color: #ff0000;
+  font-size: 3vw;
+  height: 15vh;
   width: 80vw;
 }
 .foto {
   grid-area: Foto;
-  background-color: #cf0000;
+  display: flex;
+  justify-content: center;
   height: 60vh;
-  width: 30vw;
+  width: 46vw;
+}
+#Npagina img{
+  max-height: 90%;
+  
 }
 .tekst {
   grid-area: NieuwsT;
-  background-color: aqua;
-  height: 60vh;
-  width: 50vw;
+  margin: 0px -20px 0px 25px;
+  font-size: 1.2vw;
+  width: 35vw;
+  text-shadow: 0px 0px red;
+  text-align: center;
 }
