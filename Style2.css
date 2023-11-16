@@ -102,13 +102,13 @@
   border: solid 3px black;
   height: 35vh;
   align-items: center;
+  text-align: center;
 }
 .nieuwsp img{
   height: 35vh;
 }
 .nieuwsp a{
   color: #000;
-  
 }
 
 .np1 {
