@@ -2,55 +2,58 @@
 #indexPage {
   display: grid;
   grid-template-areas: 'Nieuws1 Nieuws2 Nieuws3 Nieuws4';
-  grid-column-gap: 35px;
-  margin: 15px 100px;
+  grid-column-gap: 5px;
+    margin: 25px 15px 28px 0px;
+    justify-content: space-evenly;
+    text-align: center;
+    text-shadow: 0px 0px 4px #ff0000;
 }
 
 #indexPage img {
-  top: 0%;
-  height: 25vh;
+  margin: 22px 0px 85px 0px;
+  /* position: relative; */
+  height: 20vh;
+  width: 15vw;
+  overflow: hidden;
 }
 
 #indexPage a {
-  color: #000000;
+  color: #7c0000;
+  font-size: 30px;
 }
-
+#indexPage div{
+  margin: 0px 0px;
+}
 .Nieuws {
   display: flex;
-  background-color: #c8c8c8;
+  background-color: #ffffff;
   --border-width: 4px;
   height: 65vh;
   border-radius: var(--border-width);
   position: relative;
-  -webkit-box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
   width: 19vw;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+}
 
+.N0 {
+  grid-area: Nieuws4;
 }
 
 .N1 {
   grid-area: Nieuws1;
-
-
 }
 
 .N2 {
   grid-area: Nieuws2;
-
 }
 
 .N3 {
   grid-area: Nieuws3;
-
 }
 
-.N4 {
-  grid-area: Nieuws4;
 
-}
 
 .Nieuws::after {
   position: absolute;
@@ -104,14 +107,17 @@
   height: 45vh;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 15px 0px #be0000;
+  background-color:#ffffff ;
+  box-shadow: inset 0px 0px 20px 5px #5f0000;
   font-size: 35px;
   color: #ff0000;
-  text-shadow: 1px 0px 9px #000000ba;
+  letter-spacing: 3px;
+word-spacing: 3px;
+  text-shadow: 1px 0px 0px #000000;
 }
 
 .nieuwsp img {
-
+  margin: 0px 45px 0px 45px;
   height: 35vh;
 }
 
