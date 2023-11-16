@@ -17,14 +17,38 @@
 include "Header.php"
 ?>
 <div id="StandPuntenPage" class="Onderwerp">
-    <div class="Punten p1">1</div>
-    <div class="Punten p2">2</div>
-    <div class="Punten p3">3</div>
-    <div class="Punten p4">4</div>
-    <div class="Punten p5">5</div>
-    <div class="Punten p6">6</div>
-    <div class="Punten p7">7</div>
-    <div class="Punten p8">8</div>
+    <div class="Punten p1">
+        <img src="Images/standpunt1.jpg" alt="standpunt1">
+        <div>ZORG</div>
+    </div>
+    <div class="Punten p2">
+        <img src="Images/standpunt2.jpg" alt="standpunt2">
+        <div>INKOMEN</div>
+    </div>
+    <div class="Punten p3">
+        <img src="Images/standpunt3.jpg" alt="standpunt3">
+        <div>PENSIOEN EN AOW</div>
+    </div>
+    <div class="Punten p4">
+        <img src="Images/standpunt4.jpg" alt="standpunt4">
+        <div>WONEN</div>
+    </div>
+    <div class="Punten p5">
+        <img src="Images/standpunt5.jpg" alt="standpunt5">
+        <div>DEMOCRATIE</div>
+    </div>
+    <div class="Punten p6">
+        <img src="Images/standpunt6.jpg" alt="standpunt6">
+        <div>(ON)BETROUWBARE OVERHEID</div>
+    </div>
+    <div class="Punten p7">
+        <img src="Images/standpunt7.jpg" alt="standpunt7">
+        <div>ECONOMIE</div>
+    </div>
+    <div class="Punten p8">
+        <img src="Images/standpunt8.jpg" alt="standpunt8">
+        <div>RECHT EN VEILIGHEID</div>
+    </div>
 
 </div>
 
