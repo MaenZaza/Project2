@@ -255,9 +255,9 @@
 .Punten {
   display: flex;
   justify-self: center;
-  background-color: darkcyan;
-  width: 15vw;
-  height: 15vh;
+  /* background-color: darkcyan; */
+  /* width: 15vw; */
+  position: relative;
   margin: 15px 0px;
 
 
