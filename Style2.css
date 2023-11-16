@@ -5,11 +5,13 @@
   grid-column-gap: 35px;
   margin: 15px 100px;
 }
-#indexPage img{
+
+#indexPage img {
   top: 0%;
   height: 25vh;
 }
-#indexPage a{
+
+#indexPage a {
   color: #000000;
 }
 
@@ -25,8 +27,8 @@
   box-shadow: 0px 0px 6px 7px rgba(0, 0, 0, 0.45);
   width: 19vw;
   flex-direction: column;
-    justify-content: center;
-    
+  justify-content: center;
+
 }
 
 .N1 {
@@ -98,18 +100,21 @@
 
 .nieuwsp {
   display: flex;
-  margin: 1vh 0px;
-  border: solid 3px black;
-  height: 35vh;
+  margin: 5vh 0px;
+  height: 45vh;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 0px 15px 0px #5a1313;
+  font-size: 35px;
+  color: #ff0000;
+  text-shadow: 1px 0px 9px #000000ba;
 }
-.nieuwsp img{
+
+.nieuwsp img {
+
   height: 35vh;
 }
-.nieuwsp a{
-  color: #000;
-}
+
 
 .np1 {
   grid-area: nieuwsp1;
@@ -413,14 +418,15 @@ input[type="submit"] {
 /* Nieuw pagina (Npagina) */
 #Npagina {
   display: grid;
-  grid-template-areas: 
-  'Title Title'
-  'NieuwsT Foto';
+  grid-template-areas:
+    'Title Title'
+    'NieuwsT Foto';
   margin: 20px 130px;
   border: solid 1px red;
   box-shadow: -7px -1px 20px 4px black;
   background-color: #e9dbdb;
 }
+
 .title {
   grid-area: Title;
   color: #ff0000;
@@ -428,6 +434,7 @@ input[type="submit"] {
   height: 15vh;
   width: 80vw;
 }
+
 .foto {
   grid-area: Foto;
   display: flex;
@@ -435,10 +442,12 @@ input[type="submit"] {
   height: 60vh;
   width: 46vw;
 }
-#Npagina img{
+
+#Npagina img {
   max-height: 90%;
-  
+
 }
+
 .tekst {
   grid-area: NieuwsT;
   margin: 0px -20px 0px 25px;
