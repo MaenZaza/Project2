@@ -279,10 +279,40 @@ text-align: center;
 background-size: cover;
   position: relative;
   margin: 15px 0px;
-
-
 }
 
+.Punten div {
+  background-size: cover;
+  position: absolute;
+  top: 125px;
+  color: white;
+  display: none;
+  width: 210px;
+  text-shadow: 2px 2px #000;
+  left: 1px;
+}
+.Punten:hover div{
+display: block;
+}
+/* .StandPuntenPage:hover div {
+  display: flex;
+  
+} */
+#StandPuntenPage img {
+
+  height: 30vh;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: all 1s ease;
+}
+
+#StandPuntenPage img:hover {
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
 .p1 {
   grid-area: Leed1;
 }
