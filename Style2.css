@@ -250,13 +250,14 @@
     'Leed3 Leed4'
     'Leed5 Leed6'
     'Leed7 Leed8';
+    margin: 0px 150px;
 }
 
 .Punten {
   display: flex;
   justify-self: center;
-  /* background-color: darkcyan; */
-  /* width: 15vw; */
+text-align: center;
+background-size: cover;
   position: relative;
   margin: 15px 0px;
 

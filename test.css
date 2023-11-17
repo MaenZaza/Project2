@@ -1,6 +1,4 @@
-.StandPuntenPage:hover div {
-    display: flex;
-}
+
 .Punten div {
     background-size: cover;
     position: absolute;
@@ -11,6 +9,11 @@
     text-shadow: 2px 2px #000;
     left: 1px;
   }
+
+  .StandPuntenPage:hover div {
+    display: flex;
+    
+}
 #StandPuntenPage img {
 
     height: 30vh;
