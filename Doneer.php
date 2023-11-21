@@ -1,3 +1,12 @@
+<?php
+include "dbHandler.php";
+$db = new DbHandler();
+
+    if (isset($_POST["create"])) {
+        $db->NieuweDoneer($_POST["naam"], $_POST["email"], $_POST["prijs"]);
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -18,7 +27,7 @@ include "Header.php"
 ?>
 <div id="DoneerPage" class="Onderwerp">
     <div class="doneerF L">
-        <form action="doneer.php" method="post">
+        <form action="Doneer.php" method="post">
             <div>
                 <label for="naam">Naam:</label>
                 <input type="text" name="naam" id="naam">
@@ -36,18 +45,16 @@ include "Header.php"
                 </select>
             </div> -->
             <div>
-                <label for="vrijwillig">Vrijwillige donatie:</label>
-                <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
+                <label for="prijs">donatie:</label>
+                <input type="text" name="prijs" id="prijs" placeholder="€">
             </div>
-            <input type="submit" value="Doneer">
+            <input type="submit" value="Doneer" name="create" >
         </form>
     </div>
     <div class="doneerF R">
-    <ul>
-  <li>1.</li>
-  <li>2.</li>
-  <li>3.</li>
-</ul>
+<lebel>1</lebel>
+<lebel>1</lebel>
+<lebel>1</lebel>
     </div>
 
 </div>  

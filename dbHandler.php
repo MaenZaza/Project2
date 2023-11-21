@@ -2,7 +2,7 @@
 
 class DbHandler
 {
-    private $dataSource = "mysql:dbname=sp;host=localhost;";
+    private $dataSource = "mysql:dbname=sp;host=localhost;port=3307";
 
     private $userName = "root";
     private $password = "";
@@ -26,6 +26,15 @@ class DbHandler
         $statement->bindParam("id", $id, PDO::PARAM_INT);
         $statement->execute();
         return $statement->fetch(PDO::FETCH_ASSOC);
+    }
+    
+    public function NieuweDoneer(string $naam, string $email, string $prijs){
+        $pdo = new PDO($this->dataSource, $this->userName, $this->password);
+        $statement = $pdo->prepare("INSERT INTO doneren(naam, email, prijs) VALUES(:naam, :email, :prijs)");
+        $statement->bindParam("naam", $naam, PDO::PARAM_STR);
+        $statement->bindParam("email", $email, PDO::PARAM_STR);
+        $statement->bindParam("prijs", $prijs, PDO::PARAM_STR);
+        $statement->execute();
     }
 
 }
