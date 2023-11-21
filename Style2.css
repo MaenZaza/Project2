@@ -366,12 +366,16 @@
 
 .R {
   grid-area: DR;
+  display: grid;
   background: linear-gradient(to top,
       #ffffff,
       #cf0000);
   border-radius: 50% 50% 50% 50% / 25% 25% 75% 75%;
   box-shadow: -10px 0px 13px -7px #ff0000, 10px 0px 13px -7px #ff0000, -4px 3px 7px 4px rgba(0, 0, 0, 0.44);
-
+  grid-template-areas: 
+  'Li1'
+  'Li2'
+  'Li3';
 }
 
 .doneerF {
@@ -409,9 +413,22 @@ input[type="submit"] {
   justify-content: center;
   font-weight: normal;
 }
+.donerenLijst{
+  border: double 5px #777777;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 1.6vw;
+}
 
-.donerenLijst {
-  display: flex;
+.Li0 {
+  margin: 0px 0px 300px -81px;
+}
+
+.Li1 {
+  margin: 0px 0px 0px 0px;
+}
+
+.Li2 {
+  margin: 300px 0px 0px 0px;
 }
 
 /* Contact */

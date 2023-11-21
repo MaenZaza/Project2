@@ -1,9 +1,3 @@
-/* Ipad */
-@media only screen and (max-width: 1024px) {
-    body {
-      background-color: rgb(255, 238, 0);
-    }
-  }
 /* Phone */
 @media only screen and (max-width: 600px) {
     body {

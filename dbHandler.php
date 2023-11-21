@@ -39,7 +39,7 @@ class DbHandler
 
     public function getDoneren(){
         $pdo = new PDO($this->dataSource, $this->userName, $this->password);
-        $statement = $pdo->prepare("SELECT naam, prijs FROM doneren LIMIT 3");
+        $statement = $pdo->prepare("SELECT naam, prijs FROM doneren ORDER BY prijs DESC LIMIT 3");
         $statement->execute();
         return $statement->fetchAll(PDO::FETCH_ASSOC); 
     }
