@@ -27,14 +27,14 @@ include "Header.php"
                 <label for="email">E-mailadres:</label>
                 <input type="email" name="email" id="email" >
             </div>
-            <div>
+            <!-- <div>
                 <label for="prijs">Prijs:</label>
                 <select name="prijs" id="prijs">
                     <option value="10">€10</option>
                     <option value="25">€25</option>
                     <option value="50">€50</option>
                 </select>
-            </div>
+            </div> -->
             <div>
                 <label for="vrijwillig">Vrijwillige donatie:</label>
                 <input type="text" name="vrijwillig" id="vrijwillig" placeholder="€">
