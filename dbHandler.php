@@ -27,7 +27,7 @@ class DbHandler
         $statement->execute();
         return $statement->fetch(PDO::FETCH_ASSOC);
     }
-    
+
     public function NieuweDoneer(string $naam, string $email, string $prijs){
         $pdo = new PDO($this->dataSource, $this->userName, $this->password);
         $statement = $pdo->prepare("INSERT INTO doneren(naam, email, prijs) VALUES(:naam, :email, :prijs)");
@@ -37,4 +37,10 @@ class DbHandler
         $statement->execute();
     }
 
+    public function getDoneren(){
+        $pdo = new PDO($this->dataSource, $this->userName, $this->password);
+        $statement = $pdo->prepare("SELECT naam, prijs FROM doneren LIMIT 3");
+        $statement->execute();
+        return $statement->fetchAll(PDO::FETCH_ASSOC); 
+    }
 }

@@ -5,6 +5,8 @@ $db = new DbHandler();
     if (isset($_POST["create"])) {
         $db->NieuweDoneer($_POST["naam"], $_POST["email"], $_POST["prijs"]);
     }
+    $doneer = $db->getDoneren();
+    // var_dump($doneer);
 ?>
 
 <!DOCTYPE html>
@@ -36,14 +38,6 @@ include "Header.php"
                 <label for="email">E-mailadres:</label>
                 <input type="email" name="email" id="email" >
             </div>
-            <!-- <div>
-                <label for="prijs">Prijs:</label>
-                <select name="prijs" id="prijs">
-                    <option value="10">€10</option>
-                    <option value="25">€25</option>
-                    <option value="50">€50</option>
-                </select>
-            </div> -->
             <div>
                 <label for="prijs">donatie:</label>
                 <input type="text" name="prijs" id="prijs" placeholder="€">
@@ -51,11 +45,16 @@ include "Header.php"
             <input type="submit" value="Doneer" name="create" >
         </form>
     </div>
-    <div class="doneerF R">
-<lebel>1</lebel>
-<lebel>1</lebel>
-<lebel>1</lebel>
-    </div>
+
+        <div class="doneerF R">
+            <?php
+                foreach($doneer as $cnt => $doneerinfo){
+                $naam = $doneerinfo['naam'];
+                 $prijs = $doneerinfo['prijs'];
+                 echo '<div class="donerenLijst'.$cnt.'">'.$naam.' €'.$prijs.'</div>';
+                }
+            ?>
+        </div>
 
 </div>  
 

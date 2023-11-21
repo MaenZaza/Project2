@@ -125,7 +125,7 @@
 .nieuwsp img {
   margin: 0px 45px 0px 45px;
   height: 35vh;
-  border-radius: 10px 10px ;
+  border-radius: 10px 10px;
   box-shadow: -2px 0px 20px 1px #000;
 }
 
@@ -194,7 +194,7 @@
   text-align: center;
   text-shadow: 2px 2px 4px #000;
   left: 1px;
-  
+
 }
 
 .Ledenp:hover div {
@@ -269,14 +269,14 @@
     'Leed3 Leed4'
     'Leed5 Leed6'
     'Leed7 Leed8';
-    margin: 0px 150px;
+  margin: 0px 150px;
 }
 
 .Punten {
   display: flex;
   justify-self: center;
-text-align: center;
-background-size: cover;
+  text-align: center;
+  background-size: cover;
   position: relative;
   margin: 15px 0px;
 }
@@ -291,9 +291,11 @@ background-size: cover;
   text-shadow: 2px 2px #000;
   left: 1px;
 }
-.Punten:hover div{
-display: block;
+
+.Punten:hover div {
+  display: block;
 }
+
 /* .StandPuntenPage:hover div {
   display: flex;
   
@@ -313,6 +315,7 @@ display: block;
   filter: none;
   transition: 1s ease;
 }
+
 .p1 {
   grid-area: Leed1;
 }
@@ -376,8 +379,9 @@ display: block;
   margin: 0px 50px;
   width: 40vw;
   height: 72vh;
-
   align-items: center;
+  justify-content: center;
+
 
 }
 
@@ -404,6 +408,10 @@ input[type="submit"] {
   display: flex;
   justify-content: center;
   font-weight: normal;
+}
+
+.donerenLijst {
+  display: flex;
 }
 
 /* Contact */
