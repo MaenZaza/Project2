@@ -15,7 +15,6 @@ $db = new DbHandler();
     <link rel="stylesheet" href="Style.css">
     <link rel="stylesheet" href="Style2.css">
     <link rel="stylesheet" href="Media.css">
-    <link rel="stylesheet" href="test.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doneer - SP</title>
