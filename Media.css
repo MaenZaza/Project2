@@ -1,6 +1,223 @@
 /* Phone */
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: rgb(0, 191, 255);
-    }
+  body {
+    background-color: rgb(0, 191, 255);
+
   }
+
+  #indexPage {
+    display: grid;
+    grid-template-areas: 'Nieuws1'
+      'Nieuws2'
+      'Nieuws3'
+      'Nieuws4';
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: large;
+  }
+
+  #indexPage div {
+    margin: 20px 0px;
+    font-size: 25px;
+  }
+
+  #indexPage img {
+    margin: 22px 0px 85px 0px;
+    height: 18vh;
+    width: auto;
+  }
+
+
+  .Nieuws {
+    width: 50vw;
+    height: 53vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .btn {
+    font-size: 10px;
+    padding: 14px 20px;
+  }
+
+  #Logo {
+    height: 4vh;
+    width: 10vw;
+  }
+
+  .Doneer {
+    padding: 16px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Doneer span {
+    font-size: 14px;
+    letter-spacing: 5px;
+  }
+
+  .Doneer .wave::after {
+    background-color: rgba(255, 0, 0, 0);
+  }
+
+
+
+  .nieuwsp {
+    font-size: 19px;
+    height: 35vh;
+    margin: 4vh -38px;
+  }
+
+  .nieuwsp img {
+    margin: 0px 25px 0px 25px;
+    height: 19vh;
+
+  }
+
+  #Npagina {
+    grid-template-areas:
+      'Title'
+      'Foto'
+      'NieuwsT';
+    height: 78vh;
+    margin: 20px 48px;
+  }
+
+  .foto {
+    height: 45vh;
+    width: auto;
+  }
+
+  .tekst {
+    margin: -95px 5px 0px 5px;
+    font-size: 12px;
+    width: auto;
+
+  }
+
+  #Npagina img {
+    max-height: 65%;
+  }
+
+  .title {
+    height: 3vh;
+    width: 60vw;
+  }
+
+  #LedenPage {
+    grid-template-areas:
+      'Ledenp1 Ledenp2'
+      'Ledenp3 Ledenp4'
+      'Ledenp5 Ledenp6'
+      'Ledenp7 Ledenp8'
+      'Ledenp9 Ledenp10';
+    margin: 0px 8vw;
+  }
+
+  .Ledenp div {
+    margin: -8px 0px 0px 0px;
+    width: 183px;
+    top: 120px;
+    font-size: 12px;
+  }
+
+  .Ledenp {
+    margin: 10px 0px -55px 0px;
+    padding: 7px 0px;
+  }
+
+  #LedenPage img {
+    height: 55%;
+  }
+
+  #StandPuntenPage {
+    margin: 0px 65px;
+  }
+
+  #StandPuntenPage img {
+    height: 20vh;
+
+  }
+
+  .Punten div {
+    width: 142px;
+  }
+
+  .FL {
+    margin-left: 0px;
+    width: 90vw;
+    height: 51vh;
+  }
+
+  .FR {
+    margin-right: 0px;
+    width: 90vw;
+    height: 51vh;
+  }
+
+  #ContactPage {
+    display: grid;
+    grid-template-areas: 'FormL'
+      'FormR';
+  }
+
+  #vraag {
+    display: block;
+    margin: 3px 0px -23px 6px;
+    height: 42vh;
+    width: 85vw;
+  }
+
+  input,
+  textarea {
+    width: 94%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  #DoneerPage {
+    display: grid;
+    grid-template-areas: 'DR'
+      'DL';
+    margin: 20px 0px 20px 0px;
+  }
+
+  .doneerF {
+    width: 70vw;
+    height: 67vh;
+  }
+
+  .Li0 {
+    margin: 0px 0px 200px -30px;
+  }
+
+  .Li1 {
+    margin: 0px 0px 0px -100px;
+  }
+
+  .Li2 {
+    margin: 200px 0px 0px -100px;
+  }
+
+  .donerenLijst {
+    border: double 5px #777777;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 20px;
+  }
+
+  .doneerF input,
+  select {
+    width: 47vw;
+  }
+
+  footer {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .footerText {
+    display: inline-block;
+    font-size: 3vw;
+  }
+}
