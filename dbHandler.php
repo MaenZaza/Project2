@@ -2,7 +2,7 @@
 
 class DbHandler
 {
-    private $dataSource = "mysql:dbname=sp;host=localhost;port=3306";
+    private $dataSource = "mysql:dbname=sp;host=localhost;port=3307";
 
     private $userName = "root";
     private $password = "";
