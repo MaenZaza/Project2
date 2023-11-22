@@ -1,6 +1,82 @@
 /* Ipad */
 @media only screen and (max-width: 1024px) {
     body {
-      background-color: rgb(255, 238, 0);
+      /* background-color: rgb(255, 238, 0); */
+    }
+    .btn {
+      padding: 14px 26px;
+    }
+    /* Index */
+    #indexPage a {
+      font-size: 20px;
+    }
+    /* haeder */
+    #Logo{
+      width: 25vw;
+      height: 18vh;
+    }
+    .Doneer{
+      width: 12vw;
+    }
+    /* Nieuws */
+    .nieuwsp{
+      font-size: 20px;
+      margin: 1vh 0px;
+    }
+    .nieuwsp img{
+      height: 24vh;
+    }
+    /* Leden */
+    #LedenPage img{
+      height: 24vh;
+    }
+    .Ledenp div{
+      font-size: 1.2vw;
+      top: 101px;
+      width: 131px;
+      left: -35px;
+    }
+    /* Contact */
+    .Form {
+      border: none;
+    }
+    .FL{
+      margin-left: 160px;
+    }
+    .FR{
+      margin-right: 160px;
+    }
+    input, textarea {
+      width: 85%;
+    }
+    #vraag{
+      width: 27vw;
+    }
+    /* Doneer */
+    #DoneerPage {
+      margin: 0px 37px;
+    }
+    .doneerF {
+      width: 33vw;
+    height: 73vh;
+    }
+    form{
+      margin: 0px -25px;
+    }
+    .Li0 {
+      margin: 0px 0px 300px -40px;
+    }
+    .donerenLijst {
+      font-size: 2vw;
+    }
+    /* Nieuw pagina (Npagina) */
+    #Npagina img {
+      max-height: 53%;
+    }
+    #Npagina {
+      margin: 20px 65px;
+    }
+    .tekst {
+      font-size: 1.5vw;
     }
   }
