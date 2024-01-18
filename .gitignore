@@ -1,0 +1,14 @@
+# .gitignore
+
+# Tijdelijke bestanden in de "tmp" map
+/tmp/
+
+# Alle bestanden met de extensie ".exe"
+*.exe
+
+# Bin-map (hoofdlettergevoeligheid genegeerd)
+[Bb]in/
+
+# Visual Studio map
+.vs/
+
